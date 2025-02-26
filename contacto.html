@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Green Sun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Logo de la empresa -->
+                <li>
+                    <a href="index.html" class="logo">
+                        <img src="Imagenes y videos/Logo.png" alt="Logo Green Sun">
+                    </a>
+                </li>
+                <!-- Enlace de Inicio -->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Nuestros Servicios</a></li>
+                <li><a href="catalogo.html">Catálogo de Productos</a></li>
+                <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de contacto con imagen de fondo -->
+        <section class="contact" style="
+            background-image: url('Imagenes y videos/Fondo_contacto.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            text-align: center;
+        ">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto con Formspree -->
+            <form
+                action="https://formspree.io/f/mzzdlzak"
+                method="POST"
+                style="
+                    background-color: rgba(255, 255, 255, 0.8);
+                    padding: 20px;
+                    border-radius: 10px;
+                    max-width: 600px;
+                    width: 100%;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                "
+            >
+                <!-- Campo de Nombre -->
+                <label>
+                    Nombre:
+                    <input type="text" name="name" required style="
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    ">
+                </label>
+                <!-- Campo de Correo Electrónico -->
+                <label>
+                    Correo Electrónico:
+                    <input type="email" name="email" required style="
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    ">
+                </label>
+                <!-- Campo de Mensaje -->
+                <label>
+                    Mensaje:
+                    <textarea name="message" required style="
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    "></textarea>
+                </label>
+                <!-- Botón de envío -->
+                <button type="submit" style="
+                    padding: 10px 20px;
+                    background-color: #16a085;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                ">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Green Sun. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

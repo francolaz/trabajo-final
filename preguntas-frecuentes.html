@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - Green Sun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Logo de la empresa -->
+                <li>
+                    <a href="index.html" class="logo">
+                        <img src="Imagenes y videos/Logo.png" alt="Logo Green Sun">
+                    </a>
+                </li>
+                <!-- Enlace de Inicio -->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Nuestros Servicios</a></li>
+                <li><a href="catalogo.html">Catálogo de Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-list">
+                <!-- Pregunta 1 -->
+                <div class="faq-item">
+                    <h3>1. ¿Qué es la energía solar?</h3>
+                    <p>La energía solar es una fuente de energía renovable que se obtiene del sol. Se captura mediante paneles solares y se convierte en electricidad o calor para uso doméstico, comercial o industrial.</p>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="faq-item">
+                    <h3>2. ¿Cómo funcionan los paneles solares?</h3>
+                    <p>Los paneles solares capturan la luz del sol y la convierten en electricidad mediante un proceso llamado efecto fotovoltaico. Esta electricidad puede usarse directamente o almacenarse en baterías para uso posterior.</p>
+                </div>
+
+                <!-- Pregunta 3 -->
+                <div class="faq-item">
+                    <h3>3. ¿Cuánto cuesta instalar paneles solares?</h3>
+                    <p>El costo de instalación de paneles solares varía según el tamaño del sistema, la ubicación y los incentivos gubernamentales. En promedio, puede oscilar entre $5,000 y $20,000 USD, pero a largo plazo, el ahorro en la factura eléctrica compensa la inversión.</p>
+                </div>
+
+                <!-- Pregunta 4 -->
+                <div class="faq-item">
+                    <h3>4. ¿Cuánto tiempo duran los paneles solares?</h3>
+                    <p>Los paneles solares tienen una vida útil de 25 a 30 años. Sin embargo, su eficiencia puede disminuir ligeramente con el tiempo, generalmente alrededor de un 0.5% a 1% anual.</p>
+                </div>
+
+                <!-- Pregunta 5 -->
+                <div class="faq-item">
+                    <h3>5. ¿Funcionan los paneles solares en días nublados?</h3>
+                    <p>Sí, los paneles solares pueden generar electricidad en días nublados, aunque su eficiencia se reduce. En días muy nublados, la producción puede disminuir entre un 10% y un 25%.</p>
+                </div>
+
+                <!-- Pregunta 6 -->
+                <div class="faq-item">
+                    <h3>6. ¿Necesito baterías para un sistema de paneles solares?</h3>
+                    <p>No necesariamente. Si estás conectado a la red eléctrica, puedes usar la electricidad de la red cuando tus paneles no estén generando energía. Las baterías son útiles si deseas almacenar energía para usar durante cortes de energía o en lugares remotos.</p>
+                </div>
+
+                <!-- Pregunta 7 -->
+                <div class="faq-item">
+                    <h3>7. ¿Qué mantenimiento requieren los paneles solares?</h3>
+                    <p>Los paneles solares requieren poco mantenimiento. Basta con limpiarlos periódicamente para eliminar polvo, hojas u otros residuos que puedan reducir su eficiencia. También es recomendable revisar el sistema cada 1-2 años.</p>
+                </div>
+
+                <!-- Pregunta 8 -->
+                <div class="faq-item">
+                    <h3>8. ¿Los paneles solares son amigables con el medio ambiente?</h3>
+                    <p>Sí, los paneles solares son una fuente de energía limpia y renovable. Reducen la dependencia de combustibles fósiles y disminuyen las emisiones de gases de efecto invernadero.</p>
+                </div>
+
+                <!-- Pregunta 9 -->
+                <div class="faq-item">
+                    <h3>9. ¿Puedo vender el exceso de energía que genero?</h3>
+                    <p>En muchos países, es posible vender el exceso de energía a la red eléctrica a través de un sistema llamado "net metering". Esto permite obtener créditos o ingresos por la energía que no utilizas.</p>
+                </div>
+
+                <!-- Pregunta 10 -->
+                <div class="faq-item">
+                    <h3>10. ¿Qué factores afectan la eficiencia de los paneles solares?</h3>
+                    <p>La eficiencia de los paneles solares depende de factores como la ubicación, la orientación, la inclinación, la sombra y la calidad de los paneles. Un diseño adecuado maximiza la producción de energía.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección para enviar preguntas -->
+        <section class="ask-question">
+            <h2>¿Tienes alguna otra pregunta?</h2>
+            <p>Si no encontraste la respuesta que buscabas, envíanos tu pregunta y te responderemos a la brevedad.</p>
+            <form id="question-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="question">Tu pregunta:</label>
+                <textarea id="question" name="question" rows="5" required></textarea>
+
+                <button type="submit">Enviar pregunta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Green Sun. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
